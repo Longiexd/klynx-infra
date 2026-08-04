@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+id_rsa*
+*.sqlite
+pg-data/
+db-store/
+ssl/
+log/
+*.log
+clients/
+filestore/
