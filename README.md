@@ -2,11 +2,22 @@
 
 > **Production-inspired Docker infrastructure template for deploying Odoo 18 behind Nginx with PostgreSQL.**
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker\&logoColor=white)
-![Odoo](https://img.shields.io/badge/Odoo-18-714B67)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-336791?logo=postgresql\&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-Reverse%20Proxy-009639?logo=nginx\&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green)
+<p>
+  <img src="https://cdn.simpleicons.org/ubuntu" width="24" title="Ubuntu" />
+  <img src="https://cdn.simpleicons.org/docker" width="24" title="Docker" />
+  <img src="https://cdn.simpleicons.org/nginx" width="24" title="Nginx" />
+  <img src="https://cdn.simpleicons.org/postgresql" width="24" title="PostgreSQL" />
+  <img src="https://cdn.simpleicons.org/odoo" width="24" title="Odoo" />
+  <img src="https://cdn.simpleicons.org/cloudflare" width="24" title="Cloudflare" />
+  <img src="https://cdn.simpleicons.org/tailscale" width="24" title="Tailscale" />
+  <img src="https://cdn.simpleicons.org/terraform" width="24" title="Terraform" />
+  <img src="https://cdn.simpleicons.org/ansible" width="24" title="Ansible" />
+  <img src="https://cdn.simpleicons.org/grafana" width="24" title="Grafana" />
+  <img src="https://cdn.simpleicons.org/prometheus" width="24" title="Prometheus" />
+  <img src="https://cdn.simpleicons.org/gnubash" width="24" title="Bash" />
+  <img src="https://cdn.simpleicons.org/git" width="24" title="Git" />
+  <img src="https://cdn.simpleicons.org/github" width="24" title="GitHub" />
+</p>
 
 ---
 
@@ -157,14 +168,49 @@ docker compose down
 
 # 🛠️ Tech Stack
 
-| Component      | Version |
-| -------------- | ------- |
-| Docker         | Latest  |
-| Docker Compose | v2      |
-| Odoo           | 18      |
-| PostgreSQL     | 15      |
-| Nginx          | Alpine  |
+## Tech Stack
 
+### Core Infrastructure
+
+<p>
+  <img src="https://cdn.simpleicons.org/ubuntu" width="36" title="Ubuntu" />
+  <img src="https://cdn.simpleicons.org/docker" width="36" title="Docker" />
+  <img src="https://cdn.simpleicons.org/nginx" width="36" title="Nginx" />
+  <img src="https://cdn.simpleicons.org/postgresql" width="36" title="PostgreSQL" />
+  <img src="https://cdn.simpleicons.org/odoo" width="36" title="Odoo" />
+</p>
+
+**Ubuntu · Docker · Docker Compose · Nginx · PostgreSQL · Odoo**
+
+### Networking & Security
+
+<p>
+  <img src="https://cdn.simpleicons.org/cloudflare" width="36" title="Cloudflare" />
+  <img src="https://cdn.simpleicons.org/tailscale" width="36" title="Tailscale" />
+</p>
+
+**DNS · Reverse Proxy · TLS/SSL · SSH · Firewall · Private Networking**
+
+### DevOps Tooling
+
+<p>
+  <img src="https://cdn.simpleicons.org/terraform" width="36" title="Terraform" />
+  <img src="https://cdn.simpleicons.org/ansible" width="36" title="Ansible" />
+  <img src="https://cdn.simpleicons.org/grafana" width="36" title="Grafana" />
+  <img src="https://cdn.simpleicons.org/prometheus" width="36" title="Prometheus" />
+</p>
+
+**Infrastructure as Code · Configuration Management · Monitoring · Observability**
+
+### System Administration
+
+<p>
+  <img src="https://cdn.simpleicons.org/gnubash" width="36" title="Bash" />
+  <img src="https://cdn.simpleicons.org/git" width="36" title="Git" />
+  <img src="https://cdn.simpleicons.org/github" width="36" title="GitHub" />
+</p>
+
+**Linux · Bash · Git · GitHub · CI/CD**
 ---
 
 # 🔒 Security
