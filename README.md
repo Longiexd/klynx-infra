@@ -1,4 +1,4 @@
-# 🚀 Klynx Infrastructure
+# Klynx Infrastructure
 
 > **Production-inspired Docker infrastructure template for deploying Odoo 18 behind Nginx with PostgreSQL.**
 
@@ -21,7 +21,7 @@
 
 ---
 
-## 📖 Overview
+## Overview
 
 This repository contains a **sanitized infrastructure template** based on the Docker environment used to deploy Odoo instances at **Klynx**.
 
@@ -39,7 +39,7 @@ It demonstrates:
 
 ---
 
-# 🏗️ Architecture
+# Architecture
 
 ```text
                      Internet
@@ -66,7 +66,7 @@ It demonstrates:
 
 ---
 
-# 📁 Project Structure
+# Project Structure
 
 ```text
 .
@@ -85,21 +85,21 @@ It demonstrates:
 
 ---
 
-# ✨ Features
+# Features
 
-* ✅ Docker Compose deployment
-* ✅ Odoo 18
-* ✅ PostgreSQL 15
-* ✅ Nginx Reverse Proxy
-* ✅ HTTPS support
-* ✅ Persistent Docker volumes
-* ✅ PostgreSQL health checks
-* ✅ Environment-based configuration
-* ✅ Ready to extend for multi-instance deployments
+*  Docker Compose deployment
+*  Odoo 18
+*  PostgreSQL 15
+*  Nginx Reverse Proxy
+*  HTTPS support
+*  Persistent Docker volumes
+*  PostgreSQL health checks
+*  Environment-based configuration
+*  Ready to extend for multi-instance deployments
 
 ---
 
-# ⚙️ Prerequisites
+# Prerequisites
 
 * Docker
 * Docker Compose
@@ -108,7 +108,7 @@ It demonstrates:
 
 ---
 
-# 🔧 Configuration
+# Configuration
 
 Create your environment file:
 
@@ -138,7 +138,7 @@ with your own values.
 
 ---
 
-# 🚀 Deployment
+# Deployment
 
 Start the stack:
 
@@ -165,8 +165,6 @@ docker compose down
 ```
 
 ---
-
-# 🛠️ Tech Stack
 
 ## Tech Stack
 
@@ -213,7 +211,7 @@ docker compose down
 **Linux · Bash · Git · GitHub · CI/CD**
 ---
 
-# 🔒 Security
+# Security
 
 This repository **does not contain**:
 
@@ -227,6 +225,6 @@ Sensitive values are replaced with placeholders and should be configured locally
 
 ---
 
-# 📄 License
+# License
 
 Licensed under the MIT License.
